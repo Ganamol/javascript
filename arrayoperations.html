@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>  
+<p id="demo"></p>
+<p id="demo1"></p>
+</body>
+<script>
+
+      var array=["dog","cat","bird"];
+    //   document.getElementById("demo").innerHTML=array;
+       array.sort();
+    //   document.getElementById("demo").innerHTML=array;
+   
+     var array=["dog","cat","bird"];
+     var len=array.length;
+    //  document.getElementById("demo").innerHTML=len;
+
+    var text="";
+    for(let i=0;i<len;i++)
+    {
+      text += array[i] + "<br>";
+    }
+    // document.getElementById("demo").innerHTML=text;
+
+
+var array=["dog","cat","bird"];
+array.push("animal");
+// document.getElementById("demo").innerHTML=array;
+array.pop();
+// document.getElementById("demo").innerHTML=array;
+
+
+//  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("demo").innerHTML = fruits.toString();
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("demo").innerHTML = fruits.join(" * ");
+
+
+// const fruit = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("demo").innerHTML = fruit;
+// fruit.shift();
+// document.getElementById("demo").innerHTML = fruit;
+
+
+// const fruit= ["Banana", "Orange", "Apple", "Mango"];
+// fruit.unshift("Lemon");
+// document.getElementById("demo").innerHTML = fruit;
+
+// const fruit= ["Banana", "Orange", "Apple", "Mango"];
+// fruit[0] = "strawberry";
+// document.getElementById("demo").innerHTML = fruit;
+
+// const boys=["arun","arjun"];
+// const girls=["ammu","anu"];
+// const common=boys.concat(girls);
+// document.getElementById("demo").innerHTML = common;
+
+
+//// splice() method used to add an element into an array
+// const boys=["arun","arjun","neerav","balu"];
+// boys.splice(2,0,"manu","kichu");
+// boys.splice(2,2,"manu","kichu");
+// boys.splice(0,1); // remove an item without hole
+// document.getElementById("demo").innerHTML = boys;
+
+//slice() method create a new array without change source array
+// const boys=["arun","arjun","neerav","balu"];
+// const newboys=boys.slice(2);
+// document.getElementById("demo").innerHTML = newboys;
+
+//sort and reverse
+// const boys=["arun","arjun","neerav","balu"];
+// boys.sort();
+// boys.reverse();
+// document.getElementById("demo").innerHTML = boys;
+
+//sort numeric values
+// const num=[40,20,91,84,27,66];
+// num.sort(function(a,b){return a-b});
+// num.reverse();
+// document.getElementById("demo").innerHTML = num;
+</script>
+</html>
